@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Delete first 23 characters
+# Delete first 22 characters
 request=${1:22}
 
 # Decode URL
