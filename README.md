@@ -25,5 +25,4 @@ Open a new tab on your browser and type: atm://open/?url=file:///etc/hosts
 
 ## Thanks
 
-Algorich for his [work](https://github.com/algorich/sublime-url-handler).
-Thierry G. for his [post](http://goo.gl/bO6AZ).
+All credits goto [Algorich](https://github.com/algorich), owner of [sublime-url-handler](https://github.com/algorich/sublime-url-handler) since I just made small change to make it work with Atom.
