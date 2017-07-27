@@ -1,8 +1,10 @@
 # Atom URL Handler on Linux (Ubuntu based)
 
-Enables Atom to open URL Scheme atom:// and txmt:// like these:
+Enables Atom to open URL Scheme atm:// and txmt:// like these:
 
-`atom://open/?url=file:///etc/passwd&line=10&column=2`
+`atm://open/?url=file:///etc/passwd&line=10&column=2`
+
+Note: We would have liked to have used atom:// as a protocol, but that is already taken and used for other purposes by Atom itself.
 
 
 ## Installation
@@ -18,7 +20,7 @@ bash install
 
 ## Test it
 
-Open a new tab on your browser and type: atom://open/?url=file:///etc/hosts
+Open a new tab on your browser and type: atm://open/?url=file:///etc/hosts
 
 
 ## Thanks
