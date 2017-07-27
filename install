@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-sudo cp sublime-url-handler.desktop /usr/share/applications
+sudo cp atom-url-handler.desktop /usr/share/applications
 sudo update-desktop-database
 
-sudo cp sublime-url-handler /usr/local/bin/
-sudo chmod +x /usr/local/bin/sublime-url-handler
+sudo cp atom-url-handler /usr/local/bin/
+sudo chmod +x /usr/local/bin/atom-url-handler

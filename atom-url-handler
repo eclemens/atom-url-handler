@@ -12,5 +12,5 @@ request=${request/&line=/:}
 # Replace &column= with :
 request=${request/&column=/:}
 
-# Launch Sublime
-subl $request
+# Launch Atom
+atom $request

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Atom URL Handler
+Comment=Handle URL Scheme atom:// and txmt://
+Icon=atom
+NoDisplay=true
+Categories=TextEditor;Utility;
+Exec=atom-url-handler %u
+Terminal=false
+MimeType=x-scheme-handler/txmt;x-scheme-handler/atom;
+X-Desktop-File-Install-Version=0.21
