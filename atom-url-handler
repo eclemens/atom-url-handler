@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Delete first 22 characters
-request=${1:22}
+# Getting the file url
+request=$(echo $1 | echo -e "$(sed 's/^.*file:\/\///')")
 
 # Decode URL
 request=$(echo $request | echo -e "$(sed 's/+/ /g; s/%/\\x/g')")
