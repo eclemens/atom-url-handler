@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# url: "atom://core/open/file?filename=%{file}&line=%{line}
+
+# Decode URL
+request=$(echo $1 | echo -e "$(sed 's/+/ /g;s/%\(..\)/\\x\1/g;')")
+
+# Delete first characters up to the file path (atom://core/open/file?filename=)
+request=$(echo $request | sed -e 's/^[a-z]\+:\/\/.*filename=//i')
+
+# Replace &line= with :
+request=${request/&line=/:}
+
+# Replace &column= with :
+request=${request/&column=/:}
+
+# Launch
+atom $request

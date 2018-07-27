@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+sudo cp url-handler.desktop /usr/share/applications/vscode-url-handler.desktop
+sudo update-desktop-database
+
+sudo cp url-handler /usr/local/bin/vscode-url-handler
+sudo chmod +x /usr/local/bin/vscode-url-handler

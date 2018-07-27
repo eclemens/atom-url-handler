@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Atom URL Handler
+Comment=Handle URL Scheme atm:// and atom://
+Icon=atom
+NoDisplay=true
+Categories=TextEditor;Utility;
+Exec=atom-url-handler %u
+MimeType=x-scheme-handler/atm;x-scheme-handler/atom;

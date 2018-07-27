@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-sudo cp atom-url-handler.desktop /usr/share/applications
-sudo update-desktop-database
-
-sudo cp atom-url-handler /usr/local/bin/
-sudo chmod +x /usr/local/bin/atom-url-handler

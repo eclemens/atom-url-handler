@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# url: "vscode://file/%{file}:%{line}"
+
+# Decode URL
+request=$(echo $1 | echo -e "$(sed 's/+/ /g;s/%\(..\)/\\x\1/g;')")
+
+# Delete first characters up to the file path (vscode://file/)
+request=$(echo $request | sed -e 's/^[a-z]\+:\/\/.*file\///i')
+
+# Replace &line= with :
+request=${request/&line=/:}
+
+# Launch
+code -g -r $request

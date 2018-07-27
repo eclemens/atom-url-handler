@@ -13,7 +13,7 @@ Download [latest release](https://github.com/eclemens/atom-url-handler/archive/m
 
 Unzip it, then:
 ``` bash
-cd atom-url-handler-master
+cd atom-url-handler-master/atom
 bash install
 ```
 
