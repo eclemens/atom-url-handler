@@ -1,12 +1,14 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Visual Studio Code URL Handler
+Name=Visual Studio Code - URL Handler
 Comment=Handle URL Scheme vscode://
-Icon=code
-NoDisplay=true
-Categories=TextEditor;Utility;
+GenericName=Text Editor
 Exec=vscode-url-handler %u
-MimeType=x-scheme-handler/vscode;
+Icon=code
+Type=Application
+NoDisplay=true
+StartupNotify=true
+StartupWMClass=Code
+Categories=Utility;TextEditor;Development;IDE;
+MimeType=x-scheme-handler/vscode
+Keywords=vscode;
+X-Desktop-File-Install-Version=0.23
